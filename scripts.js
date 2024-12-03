@@ -22,11 +22,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Background Transition
 const images = [
-  'url("/assets/images/city_backdrop_sunset.png")',
-  'url("/assets/images/orange_car_speeding.png")',
-  'url("/assets/images/wet_city_street.png")',
-  'url("/assets/images/Dirt_Road.png")',
-  'url("/assets/images/Bike_Chase.png")',
+  'url("./assets/images/city_backdrop_sunset.png")',
+  'url("./assets/images/orange_car_speeding.png")',
+  'url("./assets/images/wet_city_street.png")',
+  'url("./assets/images/Dirt_Road.png")',
+  'url("./assets/images/Bike_Chase.png")',
 ];
 
 let currentIndex = 0;
@@ -59,11 +59,11 @@ function changeBackground() {
 
 // Character Overlay Transition
 const charImages = [
-  "/assets/images/cop_crim_opp.png",
-  "/assets/images/corpolady_streetlady_opp.png",
-  "/assets/images/biker_corpo_opp.png",
-  "/assets/images/oldman_lady_opp.png",
-  "/assets/images/gang_members_opp.png",
+  "./assets/images/cop_crim_opp.png",
+  "./assets/images/corpolady_streetlady_opp.png",
+  "./assets/images/biker_corpo_opp.png",
+  "./assets/images/oldman_lady_opp.png",
+  "./assets/images/gang_members_opp.png",
 ];
 
 let currentCharIndex = 0;
